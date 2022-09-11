@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Rubik", sans-serif;
+        color: #fff;
+      }
+      .container {
+        /* width: 1200px; */
+        height: 100vh;
+        background-image: linear-gradient(
+            to top left,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("/hero.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+      }
+      header {
+        width: 1200px;
+      }
+      nav {
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 500;
+      }
+      /* img {
+        width: 800px;
+      } */
+      .btn {
+        padding: 16px 32px;
+        color: #fff;
+        background-color: black;
+        border-radius: 9px;
+        text-decoration: none;
+        font-weight: 800;
+      }
+      .space {
+        width: 75vw;
+      }
+      .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .area {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25vh;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 40px;
+        line-height: 1.6;
+        /* flex-stretch: 0; */
+        /* flex-grow: 1; */
+        /* flex-shrink: 0; */
+      }
+      h1 {
+        font-size: 40px;
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div>Logo</div>
+          <div>Menu</div>
+        </nav>
+        <div class="content">
+          <div class="area">
+            <h1>A Healthy Meal Delivered to your door every single door</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequatur, voluptate neque delectus alias reiciendis blanditiis,
+              nihil provident laboriosam harum magnam reprehenderit, eaque
+              officiis distinctio rerum!
+            </p>
+            <a class="btn" href="#">Start Eating well</a>
+          </div>
+          <div class="space"></div>
+        </div>
+      </header>
+      <!-- <img src="../hero.jpg" alt="" /> -->
+    </div>
+  </body>
+</html>
